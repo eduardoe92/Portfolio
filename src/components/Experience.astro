@@ -1,0 +1,36 @@
+---
+import ExperienceItem from "./ExperienceItem.astro";
+const EXPERIENCIE = [
+  {
+    date: "JUNIO 2024 - JULIO 2024",
+    title: "PROGRAMADOR FRONT END",
+    company: "IGROWKER",
+    description:
+      "Desarrollo de una web app Mobile First para administrar eventos de manera eficiente. Asegurar la viabilidad técnica y comercial del proyecto, generando impacto y crecimiento en las habilidadesde los desarrolladores.",
+  },
+  {
+    date: "JUNIO 2023 - DIC 2024",
+    title: "PROGRAMADOR FRONT END",
+    company: "MAKISAN TECH",
+    description:
+      "Desarrollo y mantenimiento de aplicaciones y páginas web.· Mejorar de la experiencia del usuario y optimización del rendimiento de proyectos.",
+  },
+  {
+    date: "SEPT 2013 - FEB 2017",
+    title: "ATENCIÓN Y SOPORTE",
+    company: "MOVILNET - MANPOWER",
+    description:
+      "Resolución de consultas y problemas técnicos, ventas, promociones, gestión de cuentas, manejo de quejas,seguimiento de casos, cumplimiento de objetivos y servicio de telecomunicaciones.",
+  },
+];
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCIE.map((experiencie) => (
+      <li class="pl-8 md:pl-0">
+        <ExperienceItem {...experiencie} />
+      </li>
+    ))
+  }
+</ol>

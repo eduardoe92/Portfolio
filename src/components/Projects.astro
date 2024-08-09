@@ -1,0 +1,174 @@
+---
+import GitHub from "./icons/GitHub.astro";
+import React from "./icons/React.astro";
+import Bootstrap from "./icons/Bootstrap.astro";
+import Tailwind from "./icons/Tailwind.astro";
+import Link from "./icons/Link.astro";
+import LinkButton from "./LinkButton.astro";
+import CSS from "./icons/CSS.astro";
+import HTML from "./icons/HTML.astro";
+import Java from "./icons/Java.astro";
+import JavaScript from "./icons/JavaScript.astro";
+import MySQL from "./icons/MySQL.astro";
+import NodeJS from "./icons/NodeJS.astro";
+import PostgreSQL from "./icons/PostgreSQL.astro";
+import SpringMVC from "./icons/SpringMVC.astro";
+
+const TAGS = {
+  REACT: {
+    name: "React.JS",
+    class: "bg-gray-800 text-white",
+    icon: React,
+  },
+  BOOTSTRAP: {
+    name: "Bootstrap",
+    class: "bg-[#6528e0] text-white",
+    icon: Bootstrap,
+  },
+  TAILWIND: {
+    name: "Tailwind CSS",
+    class: "bg-[#003159] text-white",
+    icon: Tailwind,
+  },
+  CSS: {
+    name: "CSS",
+    class: "bg-blue-500 text-white",
+    icon: CSS,
+  },
+  HTML: {
+    name: "HTML",
+    class: "bg-orange-500 text-white",
+    icon: HTML,
+  },
+  JAVA: {
+    name: "Java",
+    class: "bg-yellow-300 text-white",
+    icon: Java,
+  },
+  JAVASCRIPT: {
+    name: "JavaScript",
+    class: "bg-[#f7df1e] text-black",
+    icon: JavaScript,
+  },
+  MYSQL: {
+    name: "MySQL",
+    class: "bg-blue-300 text-white",
+    icon: MySQL,
+  },
+  NODEJS: {
+    name: "Node.JS",
+    class: "bg-green-300 text-white",
+    icon: NodeJS,
+  },
+  POSTGRESQL: {
+    name: "PostgreSQL",
+    class: "bg-gray-300 text-white",
+    icon: PostgreSQL,
+  },
+  SPRINGMVC: {
+    name: "Spring MVC",
+    class: "bg-slate-300 text-white",
+    icon: SpringMVC,
+  },
+};
+const PROJECTS = [
+  {
+    title: "Flowento",
+    description:
+      "Flowento es una web app mobile-first creada para el Hub de Empresas de Valencia. Centraliza y automatiza la gestión de eventos, resolviendo problemas de procesos manuales, inscripciones por correo y control de asistencia. Utiliza tecnologías como React, Node.js, PostgreSQL, Tailwind-CSS y CSS. Flowento facilita la creación, difusión, inscripción y seguimiento de eventos, proporcionando métricas en tiempo real y verificación de asistencia, mejorando la eficiencia y rentabilidad de los eventos.",
+    link: "https://flowento-app.vercel.app/",
+    github: "https://github.com/eduardoe92/Flowento-App-Front",
+    image: "/projects/Flowento.webp",
+    tags: [TAGS.REACT, TAGS.NODEJS, TAGS.POSTGRESQL, TAGS.TAILWIND, TAGS.CSS],
+  },
+  {
+    title: "Librería Virtual",
+    description:
+      "El proyecto Biblioteca es una aplicación para gestionar una biblioteca digital. Permite a los usuarios registrar, actualizar y gestionar libros, autores y cuentas de usuario. Incluye características como registro de usuarios, gestión de libros y autores, seguridad de contraseñas, control de sesiones y roles de usuario. Utiliza Java, Spring Boot, Spring Security, Spring Data JPA, MySQL, Maven, HTML y Bootstrap para ofrecer una plataforma segura y funcional.",
+    github: "https://github.com/eduardoe92/LibraryProject",
+    image: "/projects/Library.webp",
+    tags: [
+      TAGS.JAVA,
+      TAGS.SPRINGMVC,
+      TAGS.MYSQL,
+      TAGS.BOOTSTRAP,
+      TAGS.HTML,
+      TAGS.CSS,
+    ],
+  },
+  {
+    title: "Frontend Mentor Challenges",
+    description:
+      "El repositorio Frontend Mentor Challenges se dedica a recrear los diferentes desafíos de la plataforma Frontend Mentor. Su objetivo principal es mejorar las habilidades de desarrollo front-end al abordar proyectos de diseño del mundo real. Cada desafío se encuentra implementado en Vercel. Para obtener más información sobre cada desafío, consulte el correspondiente Readme. Las tecnologías utilizadas incluyen HTML, CSS, JavaScript, React, entre otras.",
+    link: "https://eduardoe92.github.io/Challenge/",
+    github: "https://github.com/eduardoe92/Challenge",
+    image: "/projects/Challenges.webp",
+    tags: [TAGS.JAVASCRIPT, TAGS.BOOTSTRAP, TAGS.HTML, TAGS.CSS],
+  },
+  {
+    title: "Landing Page - Caroline Sada",
+    description:
+      "El Proyecto de Digital Nao consistió en la creación de una Landing Page para 'Caroline Seda', profesional en Administración y Dirección de Empresas. Se emplearon tecnologías HTML, Bootstrap, Java Script y CSS para su desarrollo, garantizando una presentación elegante y funcional. El sitio web resalta las habilidades y servicios ofrecidos por la licenciada, permitiendo a los visitantes obtener una impresión clara y profesional de sus capacidades.",
+    link: "https://eduardoe92.github.io/CarolineSada/",
+    github: "https://github.com/eduardoe92/CarolineSada",
+    image: "/projects/CarolineSada.webp",
+    tags: [TAGS.JAVASCRIPT, TAGS.BOOTSTRAP, TAGS.HTML, TAGS.CSS],
+  },
+];
+---
+
+<div class="flex flex-col gap-y-16 p-6">
+  {
+    PROJECTS.map(({ image, title, description, tags, link, github }) => (
+      <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+        <div class="w-full md:w-1/2 flex items-center justify-center ">
+          <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 ease-in-out overflow-clip rounded-xl sm:rounded-xl">
+            <img
+              alt={title}
+              class="object-cover object-top w-full h-auto sm:h-full"
+              loading="lazy"
+              src={image}
+            />
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 md:max-w-lg">
+          <h3 class="text-center text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-100">
+            {title}
+          </h3>
+          <div class="flex flex-wrap mt-2 justify-center">
+            <ul class="flex flex-row mb-2 gap-x-2">
+              {tags.map((tag) => (
+                <li>
+                  <span
+                    class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
+                  >
+                    <tag.icon class="size-5 md:size-7" />
+                  </span>
+                </li>
+              ))}
+            </ul>
+
+            <div class="px-4 md:px-0 mt-2 text-gray-700 dark:text-gray-400 text-justify">
+              {description}
+            </div>
+            <footer class="flex justify-center items-center mt-4 gap-x-4">
+              {github && (
+                <LinkButton href={github}>
+                  <GitHub class="size-6" />
+                  GitHub
+                </LinkButton>
+              )}
+              {link && (
+                <LinkButton href={link}>
+                  <Link class="size-4" />
+                  Desplegar
+                </LinkButton>
+              )}
+            </footer>
+          </div>
+        </div>
+      </article>
+    ))
+  }
+</div>

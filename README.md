@@ -41,7 +41,7 @@ Para comenzar a trabajar con este proyecto, sigue estos pasos:
 
 ## 🌐 Despliegue
 
-El portafolio está desplegado en Vercel. Puedes verlo en [https://eduardoeliaschacon-portfolio.vercel.app/](https://eduardoeliaschacon-portfolio.vercel.app/)
+El portafolio está desplegado en Vercel. Puedes verlo en  [![Website](https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=web&logoColor=white&color=purple)](https://eduardoeliaschacon-portfolio.vercel.app/) 
 
 ## 📜 Funcionalidades
 
@@ -52,8 +52,71 @@ El portafolio está desplegado en Vercel. Puedes verlo en [https://eduardoeliasc
 
 ## 💬 Contacto
 
-Para consultas o colaboraciones, no dudes en contactarme a través de [mi correo electrónico](mailto:eduardo.elias.1192@gmail.com) o en [LinkedIn](https://linkedin.com/in/eduardoe92/).
+Para consultas o colaboraciones, no dudes en contactarme a través de [mi correo electrónico](mailto:eduardo.elias.1192@gmail.com) o en [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoe92/)
 
 ---
 
 Gracias por visitar mi portafolio. ¡Espero que disfrutes explorándolo!
+
+---
+
+# Eduardo Chacón's Portfolio
+
+Welcome to the repository of my personal portfolio! This project is developed with Astro, a modern tool for building fast and efficient websites.
+
+## 📦 Description
+
+This portfolio is designed to showcase my skills and projects in web development. It includes a presentation of my abilities, featured projects, and a contact section. The site is optimized for a smooth user experience and is designed to highlight my work and experience in the web development industry.
+
+## 🚀 Technologies Used
+
+- **Astro**: A framework for building fast and modern websites.
+- **Tailwind CSS**: A utility-first CSS framework for creating custom designs.
+- **React**: Library for building user interfaces (optional, if used in the project).
+- **Vercel**: Platform for deploying the project.
+
+## 🛠 Installation
+
+To start working with this project, follow these steps:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/eduardoe92/Portfolio.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd Portfolio
+    ```
+
+3. **Install the dependencies**:
+    ```bash
+    npm install
+    ```
+
+4. **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the site in development.
+
+## 🌐 Deployment
+
+The portfolio is deployed on Vercel. You can view it at [![Website](https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=web&logoColor=white&color=purple)](https://eduardoeliaschacon-portfolio.vercel.app/) 
+
+## 📜 Features
+
+- **Introduction Section**: Provides a brief description of myself and my skills.
+- **Featured Projects**: Showcases a selection of projects I have worked on.
+- **Contact Section**: Allows visitors to easily get in touch with me.
+- **Responsive Design**: Adapted for optimal viewing on both mobile and desktop devices.
+
+## 💬 Contact
+
+For inquiries or collaborations, feel free to contact me via [email](mailto:eduardo.elias.1192@gmail.com) or on [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoe92/)
+
+---
+
+Thank you for visiting my portfolio. I hope you enjoy exploring it!
+

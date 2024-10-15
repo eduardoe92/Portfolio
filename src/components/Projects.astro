@@ -13,6 +13,8 @@ import MySQL from "./icons/MySQL.astro";
 import NodeJS from "./icons/NodeJS.astro";
 import PostgreSQL from "./icons/PostgreSQL.astro";
 import SpringMVC from "./icons/SpringMVC.astro";
+import TypeScript from "./icons/TypeScript.astro";
+import Figma from "./icons/Figma.astro";
 
 const TAGS = {
   REACT: {
@@ -70,16 +72,52 @@ const TAGS = {
     class: "bg-slate-300 text-white",
     icon: SpringMVC,
   },
+  TYPESCRIT: {
+    name: "TypeScript",
+    class: "bg-blue-300 text-white",
+    icon: TypeScript,
+  },
+  FIGMA: {
+    name: "Figma",
+    class: "bg-white text-white",
+    icon: Figma,
+  },
 };
 const PROJECTS = [
   {
+    title: "Bariló",
+    description:
+      "Bariló es una innovadora Web-App Mobile-First diseñada para transformar la experiencia de los viajes de egresados en Argentina, haciéndolos accesibles y personalizados para todos los estudiantes, sin importar su situación económica. Las empresas de viajes suelen ofrecer paquetes estandarizados, limitando la personalización y accesibilidad. Esta falta de alternativas adecuadas intensifica las desigualdades, resaltando la urgente necesidad de soluciones inclusivas.",
+    link: "https://barilo.vercel.app/",
+    frontend: "https://github.com/eduardoe92/Barilo-App-Front",
+    backend: "https://github.com/eduardoe92/Barilo-App-Back/",
+    image: "/projects/Barilo.webp",
+    tags: [
+      TAGS.REACT,
+      TAGS.TYPESCRIT,
+      TAGS.TAILWIND,
+      TAGS.JAVA,
+      TAGS.POSTGRESQL,
+      TAGS.SPRINGMVC,
+      TAGS.FIGMA,
+    ],
+  },
+  {
     title: "Flowento",
     description:
-      "Flowento es una web app mobile-first creada para el Hub de Empresas de Valencia. Centraliza y automatiza la gestión de eventos, resolviendo problemas de procesos manuales, inscripciones por correo y control de asistencia. Utiliza tecnologías como React JS, Node.js, PostgreSQL, Tailwind-CSS y CSS. Flowento facilita la creación, difusión, inscripción y seguimiento de eventos, proporcionando métricas en tiempo real y verificación de asistencia, mejorando la eficiencia y rentabilidad de los eventos.",
+      "Flowento es una Web-App Mobile-First creada para el Hub de Empresas de Valencia. Centraliza y automatiza la gestión de eventos, resolviendo problemas de procesos manuales, inscripciones por correo y control de asistencia. Utiliza tecnologías como React JS, Node.js, PostgreSQL, Tailwind-CSS y CSS. Flowento facilita la creación, difusión, inscripción y seguimiento de eventos, proporcionando métricas en tiempo real y verificación de asistencia, mejorando la eficiencia y rentabilidad de los eventos.",
     link: "https://flowento-app.vercel.app/",
-    github: "https://github.com/eduardoe92/Flowento-App-Front",
+    frontend: "https://github.com/eduardoe92/Flowento-App-Front",
+    backend: "https://github.com/eduardoe92/Flowento-App-Back",
     image: "/projects/Flowento.webp",
-    tags: [TAGS.REACT, TAGS.NODEJS, TAGS.POSTGRESQL, TAGS.TAILWIND, TAGS.CSS],
+    tags: [
+      TAGS.REACT,
+      TAGS.TAILWIND,
+      TAGS.CSS,
+      TAGS.NODEJS,
+      TAGS.POSTGRESQL,
+      TAGS.FIGMA,
+    ],
   },
   {
     title: "Librería Virtual",
@@ -103,7 +141,7 @@ const PROJECTS = [
     link: "https://eduardoe92.github.io/Challenge/",
     github: "https://github.com/eduardoe92/Challenge",
     image: "/projects/Challenges.webp",
-    tags: [TAGS.JAVASCRIPT, TAGS.BOOTSTRAP, TAGS.HTML, TAGS.CSS],
+    tags: [TAGS.JAVASCRIPT, TAGS.BOOTSTRAP, TAGS.HTML, TAGS.CSS, TAGS.FIGMA],
   },
   {
     title: "Landing Page - Caroline Sada",
@@ -119,58 +157,97 @@ const PROJECTS = [
 
 <div class="flex flex-col gap-y-16 p-6">
   {
-    PROJECTS.map(({ image, title, description, tags, link, github }) => (
-      <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
-        <div class="w-full md:w-1/2 flex items-center justify-center ">
-          <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 ease-in-out overflow-clip rounded-xl sm:rounded-xl">
-            <img
-              alt={title}
-              class="object-cover object-top w-full h-auto sm:h-full"
-              loading="lazy"
-              src={image}
-              width="800"
-              height="250"
-            />
-          </div>
-        </div>
-
-        <div class="w-full md:w-1/2 md:max-w-lg">
-          <h3 class="text-center text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-100">
-            {title}
-          </h3>
-          <div class="flex flex-wrap mt-2 justify-center">
-            <ul class="flex flex-row mb-2 gap-x-2">
-              {tags.map((tag) => (
-                <li>
-                  <span
-                    class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
-                  >
-                    <tag.icon class="size-5 md:size-7" />
-                  </span>
-                </li>
-              ))}
-            </ul>
-
-            <div class="px-4 md:px-0 mt-2 text-gray-700 dark:text-gray-400 text-justify">
-              {description}
+    PROJECTS.map(
+      ({
+        image,
+        title,
+        description,
+        tags,
+        link,
+        github,
+        frontend,
+        backend,
+      }) => (
+        <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+          <div class="w-full md:w-1/2 flex items-center justify-center ">
+            <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 ease-in-out overflow-clip rounded-xl sm:rounded-xl">
+              <img
+                alt={title}
+                class="object-cover object-top w-full h-auto sm:h-full"
+                loading="lazy"
+                src={image}
+                width="800"
+                height="250"
+              />
             </div>
-            <footer class="flex justify-center items-center mt-4 gap-x-4">
-              {github && (
-                <LinkButton href={github}>
-                  <GitHub class="size-6" />
-                  GitHub
-                </LinkButton>
-              )}
-              {link && (
-                <LinkButton href={link}>
-                  <Link class="size-4" />
-                  Desplegar
-                </LinkButton>
-              )}
-            </footer>
           </div>
-        </div>
-      </article>
-    ))
+
+          <div class="w-full md:w-1/2 md:max-w-lg">
+            <h3 class="text-center text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-100">
+              {title}
+            </h3>
+            <div class="flex flex-wrap mt-2 justify-center">
+              <ul class="flex flex-row mb-2 gap-x-2">
+                {tags.map((tag) => (
+                  <li>
+                    <span
+                      class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
+                    >
+                      <tag.icon class="size-5 md:size-7" />
+                    </span>
+                  </li>
+                ))}
+              </ul>
+
+              <div class="px-4 md:px-0 mt-2 text-gray-700 dark:text-gray-400 text-justify">
+                {description}
+              </div>
+              <footer class="flex justify-center items-center mt-4 gap-x-4">
+                {github && (
+                  <LinkButton
+                    href={github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <GitHub class="size-6" />
+                    GitHub
+                  </LinkButton>
+                )}
+                {frontend && (
+                  <LinkButton
+                    href={frontend}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <GitHub class="size-6" />
+                    FrontEnd
+                  </LinkButton>
+                )}
+                {backend && (
+                  <LinkButton
+                    href={backend}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <GitHub class="size-6" />
+                    BackEnd
+                  </LinkButton>
+                )}
+                {link && (
+                  <LinkButton
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Link class="size-4" />
+                    Desplegar
+                  </LinkButton>
+                )}
+              </footer>
+            </div>
+          </div>
+        </article>
+      )
+    )
   }
 </div>

@@ -6,4 +6,9 @@ import robotsTxt from "astro-robots-txt";
 export default defineConfig({
   site: 'https://eduardoeliaschacon-portfolio.vercel.app/',
   integrations: [tailwind(), robotsTxt()],
+  vite: {
+    ssr: {
+      noExternal: ['@fontsource-variable/onest'], // Agrega aquí el paquete problemático
+    },
+  },
 });

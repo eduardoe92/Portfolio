@@ -15,6 +15,7 @@ import PostgreSQL from "./icons/PostgreSQL.astro";
 import SpringMVC from "./icons/SpringMVC.astro";
 import TypeScript from "./icons/TypeScript.astro";
 import Figma from "./icons/Figma.astro";
+import MongoDB from "./icons/MondoDB.astro";
 
 const TAGS = {
   REACT: {
@@ -82,8 +83,32 @@ const TAGS = {
     class: "bg-white text-white",
     icon: Figma,
   },
+  MONGODB: {
+    name: "MongoDB",
+    class: "bg-white text-white",
+    icon: MongoDB,
+  },
 };
 const PROJECTS = [
+  {
+    title: "Mindup",
+    description:
+      "Es una plataforma innovadora desarrollada con un enfoque Mobile-First que revoluciona la forma en que los pacientes encuentran a su psicólogo ideal. Conectando a las personas con profesionales que realmente se ajusten a sus necesidades, realizando un cuestionario inicial y perfiles enriquecidos con fotos, videos y descripciones humanas para facilitar relaciones terapéuticas. Construida con tecnologías como Java Spring Boot, PostgreSQL, MongoDB y una arquitectura basada en microservicios, Mindup también integra un sistema de chat en tiempo real para asistencia de emergencia. Priorizando la accesibilidad, personalización y escalabilidad para impactar positivamente en el bienestar mental.",
+    link: "https://mindup-app.vercel.app/",
+    frontend: "https://github.com/eduardoe92/MindUp-Frontend",
+    backend: "https://github.com/eduardoe92/MindUp-Backend",
+    image: "/projects/Mindup.webp",
+    tags: [
+      TAGS.JAVA,
+      TAGS.SPRINGMVC,
+      TAGS.POSTGRESQL,
+      TAGS.MONGODB,
+      TAGS.REACT,
+      TAGS.TYPESCRIT,
+      TAGS.TAILWIND,
+      TAGS.FIGMA,
+    ],
+  },
   {
     title: "Bariló",
     description:

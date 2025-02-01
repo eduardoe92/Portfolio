@@ -54,7 +54,11 @@ Para comenzar a trabajar con este proyecto, sigue estos pasos:
 
 ## 💬 Contacto
 
-Para consultas o colaboraciones, no dudes en contactarme a través de [mi correo electrónico](mailto:eduardo.elias.1192@gmail.com) o en [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoe92/)
+Para consultas o colaboraciones, no dudes en contactarme a través de [mi correo electrónico](mailto:eduardo.elias.1192@gmail.com) o a través de mis redes sociales:
+
+| LinkedIn | Portafolio | Instagram |
+|:--------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
+| <a href="https://www.linkedin.com/in/eduardoe92/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40"/></a> | <a href="https://eduardoeliaschacon-portfolio.vercel.app/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a> | <a href="https://www.instagram.com/eduardo.e"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="40" height="40"/></a> |
 
 ---
 
@@ -118,7 +122,11 @@ To start working with this project, follow these steps:
 
 ## 💬 Contact
 
-For inquiries or collaborations, feel free to contact me via [email](mailto:eduardo.elias.1192@gmail.com) or on [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoe92/)
+For inquiries or collaborations, feel free to contact me via [email](mailto:eduardo.elias.1192@gmail.com) or through my social networks:
+
+| LinkedIn | Portfolio | Instagram |
+|:--------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
+| <a href="https://www.linkedin.com/in/eduardoe92/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40"/></a> | <a href="https://eduardoeliaschacon-portfolio.vercel.app/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a> | <a href="https://www.instagram.com/eduardo.e"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="40" height="40"/></a> |
 
 ---
 

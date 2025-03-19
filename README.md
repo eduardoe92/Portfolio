@@ -2,6 +2,12 @@
 
 ¡Bienvenido al repositorio de mi portafolio personal! Este proyecto está desarrollado con Astro, una herramienta moderna para construir sitios web rápidos y eficientes.
 
+## Sitio Web
+
+El portafolio está desplegado en Vercel. Puedes verlo en el siguiente enlace:
+
+<a href="https://eduardoeliaschacon-portfolio.vercel.app/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a>
+
 ## 📦 Descripción
 
 Este portafolio está diseñado para mostrar mis habilidades y proyectos en desarrollo web. Incluye una presentación de mis habilidades, proyectos destacados, y una sección de contacto. El sitio está optimizado para una experiencia de usuario fluida y está diseñado para destacar mi trabajo y mi experiencia en la industria de desarrollo web.
@@ -38,11 +44,7 @@ Para comenzar a trabajar con este proyecto, sigue estos pasos:
     ```
 
 5. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el sitio en desarrollo.
-
-## 🌐 Despliegue
-
-El portafolio está desplegado en Vercel. Puedes verlo en  [![Website](https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=web&logoColor=white&color=purple)](https://eduardoeliaschacon-portfolio.vercel.app/) 
-
+  
 ## 📜 Funcionalidades
 
 - **Sección de Introducción**: Presenta una breve descripción sobre mí y mis habilidades.
@@ -52,7 +54,11 @@ El portafolio está desplegado en Vercel. Puedes verlo en  [![Website](https://i
 
 ## 💬 Contacto
 
-Para consultas o colaboraciones, no dudes en contactarme a través de [mi correo electrónico](mailto:eduardo.elias.1192@gmail.com) o en [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoe92/)
+Para consultas o colaboraciones, no dudes en contactarme a través de [mi correo electrónico](mailto:eduardo.elias.1192@gmail.com) o a través de mis redes sociales:
+
+| LinkedIn | Portafolio | Instagram |
+|:--------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
+| <a href="https://www.linkedin.com/in/eduardoe92/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40"/></a> | <a href="https://eduardoeliaschacon-portfolio.vercel.app/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a> | <a href="https://www.instagram.com/eduardo.e"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="40" height="40"/></a> |
 
 ---
 
@@ -63,6 +69,12 @@ Gracias por visitar mi portafolio. ¡Espero que disfrutes explorándolo!
 # Eduardo Chacón's Portfolio
 
 Welcome to the repository of my personal portfolio! This project is developed with Astro, a modern tool for building fast and efficient websites.
+
+## Web Site
+
+The portfolio is deployed in Vercel. You can see it at the following link:
+
+<a href="https://eduardoeliaschacon-portfolio.vercel.app/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a>
 
 ## 📦 Description
 
@@ -101,10 +113,6 @@ To start working with this project, follow these steps:
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the site in development.
 
-## 🌐 Deployment
-
-The portfolio is deployed on Vercel. You can view it at [![Website](https://img.shields.io/badge/Website-%23000000.svg?style=for-the-badge&logo=web&logoColor=white&color=purple)](https://eduardoeliaschacon-portfolio.vercel.app/) 
-
 ## 📜 Features
 
 - **Introduction Section**: Provides a brief description of myself and my skills.
@@ -114,7 +122,11 @@ The portfolio is deployed on Vercel. You can view it at [![Website](https://img.
 
 ## 💬 Contact
 
-For inquiries or collaborations, feel free to contact me via [email](mailto:eduardo.elias.1192@gmail.com) or on [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardoe92/)
+For inquiries or collaborations, feel free to contact me via [email](mailto:eduardo.elias.1192@gmail.com) or through my social networks:
+
+| LinkedIn | Portfolio | Instagram |
+|:--------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
+| <a href="https://www.linkedin.com/in/eduardoe92/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40" height="40"/></a> | <a href="https://eduardoeliaschacon-portfolio.vercel.app/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="40" height="40"/></a> | <a href="https://www.instagram.com/eduardo.e"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="40" height="40"/></a> |
 
 ---
 

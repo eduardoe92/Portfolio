@@ -18,10 +18,62 @@ const { description, title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title}</title>
-    <meta name="description" content={description} />
+
+    <title>
+      Portafolio de Eduardo Chacón - Desarrollador y Programador Web
+    </title>
+    <meta
+      name="description"
+      content="Soy Eduardo Chacón, desarrollador web con experiencia en JavaScript, React, Astro, Tailwind CSS, Spring y más. Conoce mis proyectos y habilidades."
+    />
     <meta name="generator" content={Astro.generator} />
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:url"
+      content="https://eduardoeliaschacon-portfolio.vercel.app/"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Portafolio de Eduardo Chacón - Desarrollador y Programador Web"
+    />
+    <meta
+      property="og:description"
+      content="Soy Eduardo Chacón, desarrollador web con experiencia en JavaScript, React, Astro, Tailwind CSS, Spring y más. Conoce mis proyectos y habilidades."
+    />
+    <meta
+      property="og:image"
+      content="https://eduardoeliaschacon-portfolio.vercel.app/og.jpg"
+    />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Eduardo Chacón - Portafolio" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:domain"
+      content="eduardoeliaschacon-portfolio.vercel.app"
+    />
+    <meta
+      property="twitter:url"
+      content="https://eduardoeliaschacon-portfolio.vercel.app/"
+    />
+    <meta
+      name="twitter:title"
+      content="Portafolio de Eduardo Chacón - Desarrollador y Programador Web"
+    />
+    <meta
+      name="twitter:description"
+      content="Soy Eduardo Chacón, desarrollador web con experiencia en JavaScript, React, Astro, Tailwind CSS, Spring y más. Conoce mis proyectos y habilidades."
+    />
+    <meta
+      name="twitter:image"
+      content="https://eduardoeliaschacon-portfolio.vercel.app/preview-image.jpg"
+    />
+
     <ViewTransitions />
   </head>
 
